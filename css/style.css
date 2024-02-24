@@ -49,3 +49,64 @@
   color: #000;
   background-color: #fff;
 }
+.content {
+  text-align: center;
+  height: 61vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content h1 {
+  font-size: 90px;
+  color: #fff;
+}
+.content a {
+  text-decoration: none;
+  padding: 16px 5px;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 25px;
+  color: #000;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+.box_form_header {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form_header {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.form_header input {
+  border: none;
+  outline: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.form_header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 12px 15px;
+  border: none;
+  background-color: #fdbc00;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+.form_header button:hover,
+.content a:hover {
+  background-color: #00c0e2;
+  color: #fff;
+}
