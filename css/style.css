@@ -19,3 +19,33 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 2.9rem;
+}
+.navbar img {
+  width: 160px;
+  position: relative;
+  top: -3px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+  border-radius: 5px;
+}
+.navbar ul li a:hover {
+  color: #000;
+  background-color: #fff;
+}
