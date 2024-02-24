@@ -110,3 +110,33 @@
   background-color: #00c0e2;
   color: #fff;
 }
+/* responsive: */
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 1rem;
+    justify-content: center;
+    width: 80%;
+  }
+  .navbar img {
+    width: 100px;
+    top: 0;
+  }
+  .navbar ul {
+    gap: 1rem;
+  }
+  .navbar ul li a {
+    font-size: 0.6rem;
+    padding: 6px;
+  }
+  .content {
+    margin-top: 5rem;
+    height: auto;
+  }
+  .content h1 {
+    font-size: 50px;
+  }
+  .box_form_header {
+    margin-top: 4rem;
+  }
+}
